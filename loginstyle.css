@@ -3,6 +3,7 @@
   color: #eee;
   text-decoration: none;
   font-size: 16px;
+  font-family: "Press Start 2P";
   padding-right: 100px !important;
   padding-left: 100px !important;
 }
@@ -13,8 +14,8 @@
 }
 
 .brand-logo {
-  font-family: Rochester;
-  font-size: 50px !important;
+  font-family: "Press Start 2P";
+  font-size: 30px !important;
 }
 
 .container {
@@ -121,7 +122,7 @@
 }
 
 .overlay-left {
-  background-image: url("Dragon.png");
+  background-image: url("/images/Dragon.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
@@ -133,7 +134,7 @@
 }
 
 .overlay-right {
-  background-image: url("Pikachu.jpg");
+  background-image: url("/images/Pikachu.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
@@ -156,14 +157,14 @@
   font-weight: bold;
   color: black;
   text-align: center;
-  font-family: Rochester;
+  font-family: "Press Start 2P";
 }
 
 .transbox p {
   color: black;
   text-align: center;
-  font-family: Rochester;
-  font-size: 32px;
+  font-family: "Press Start 2P";
+  font-size: 22px;
   font-weight: 100;
   line-height: 20px;
   letter-spacing: 0.5px;
@@ -177,16 +178,18 @@
   letter-spacing: 3px;
   bottom: 0px;
   margin-bottom: 0px;
+  font-family: "Press Start 2P"
 }
 
 h1 {
-  font-family: Rochester;
+  font-family: "Press Start 2P";
+  font-size: 30px;
   font-weight: bold;
   margin: 0;
 }
 
 p {
-  font-family: Rochester;
+  font-family: "Press Start 2P";
   font-size: 14px;
   font-weight: 100;
   line-height: 20px;
@@ -200,6 +203,7 @@ button {
   background-color: #f9d62e !important;
   color: white;
   font-size: 12px;
+  font-family: "Press Start 2P";
   padding: 12px 45px;
   letter-spacing: 1px;
   text-transform: uppercase;
