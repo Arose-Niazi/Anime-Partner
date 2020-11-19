@@ -89,7 +89,7 @@ function grid(){
         '<a href="anime.html">'+
             '<div class="card txtBox">'+
                 '<div class="card-image">'+
-                    '<img src="images/Theme/Dragon.png">'+
+                    '<img src="images/Test/Dragon.png">'+
                 '</div>'+
                 '<div class="card-content">'+
                     '<p>'+
@@ -185,7 +185,7 @@ function grid(){
         /*'<div class="col s3">'+
             '<div class="card txtBox">'+
                 '<div class="card-image">'+
-                    '<img src="images/Dragon.png">'+
+                    '<img src="images/Test/Dragon.png">'+
                 '</div>'+
                 '<div class="card-content">'+
                     '<p>'+

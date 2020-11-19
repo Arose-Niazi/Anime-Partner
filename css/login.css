@@ -101,7 +101,7 @@
 }
 
 .overlay-left {
-  background-image: url("../images/Theme/Dragon.png");
+  background-image: url("../images/Theme/Signup.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
@@ -113,7 +113,7 @@
 }
 
 .overlay-right {
-  background-image: url("../images/Theme/Pikachu.jpg");
+  background-image: url("../images/Theme/Login.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
