@@ -12,9 +12,9 @@ function list(){
 }
 
 function grid(){
-    el1 = document.getElementById('box');
+    var el1 = document.getElementById('box');
 
-    output = '<div class="row">'+
+    var output = '<div class="row">'+
         
         '<div class="col s3">'+
         '<a href="anime.html">'+
