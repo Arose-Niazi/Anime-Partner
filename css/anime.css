@@ -71,7 +71,7 @@
     margin-top: 100px;
 }
 .bar{
-    background-color: #fc913ab9;
+    background-color: #f9a12e;
     width: 40%;
     height: 10px;
     align-items: center;
@@ -83,3 +83,5 @@
 .mar{
     margin-top: 50px;
 }
+
+.card-image{height: 250px !important}
