@@ -1,13 +1,13 @@
 function list(){
     document.getElementById("box").innerHTML = 
     '<ul class="collection">'+
-        '<li class="collection-item"><a href="anime.html"></a>Attack On Titans</li>' +
-        '<li class="collection-item"><a href="anime.html"></a>Code Geass</li>' +
-        '<li class="collection-item"><a href="anime.html"></a>Death Note</li>' +
-        '<li class="collection-item"><a href="anime.html"></a>Dragon Ball Z</li>' +
-        '<li class="collection-item"><a href="anime.html"></a>Naruto</li>' +
-        '<li class="collection-item"><a href="anime.html"></a>Pokemon</li>' +
-        '<li class="collection-item"><a href="anime.html"></a>Sword Art Online</li>' +
+        '<a href="anime.html"><li class="collection-item">Attack On Titans</li></a>'+
+        '<a href="anime.html"><li class="collection-item">Code Geass</li></a>'+
+        '<a href="anime.html"><li class="collection-item">Death Note</li></a>'+
+        '<a href="anime.html"><li class="collection-item">Dragon Ball Z</li></a>'+
+        '<a href="anime.html"><li class="collection-item">Naruto</li></a>'+
+        '<a href="anime.html"><li class="collection-item">Pokemon</li></a>'+
+        '<a href="anime.html"><li class="collection-item">Sword Art Online</li></a>'+
     '</ul>'
 }
 
