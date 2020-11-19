@@ -6,7 +6,7 @@
   box-sizing: border-box;
   padding: 45px;
   width: 900px;
-  height: 710px;
+  height: 100vh;
   background: url("../images/predictor.gif");
   background-size: cover;
   background-position: center;
@@ -92,4 +92,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
   border-bottom: 2px solid #f9d62e;
   -webkit-box-shadow: none;
   box-shadow: none;
+}
+.center-btn{
+  margin-top: 30vh;
 }

@@ -1,11 +1,9 @@
 
 .container {
-  background-color: #eee;
   position: relative;
   overflow: hidden;
   width: 1550px;
   max-width: 100%;
-  min-height: 635px;
 }
 
 .form-container {
@@ -155,7 +153,7 @@
 
 
 form {
-  background-color: #eee;
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;

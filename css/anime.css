@@ -159,6 +159,7 @@ button.ghost {
 }
 
 .card-image{height: 250px !important}
+.card-content{height: 150px !important}
 
 
 .txtBox{
@@ -222,4 +223,12 @@ a {
 .margin {
     color: coral;
 }
-  
+.container{
+    background-color: white!important;
+    min-height: calc(100vh - 9.8842293906810037vh);
+}
+.cMid{
+    display: block;
+    width: 100%;
+    margin-top: 7em;
+}
