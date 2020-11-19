@@ -122,7 +122,7 @@
 }
 
 .overlay-left {
-  background-image: url("/images/Dragon.png");
+  background-image: url("../images/Theme/Dragon.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
@@ -134,7 +134,7 @@
 }
 
 .overlay-right {
-  background-image: url("/images/Pikachu.jpg");
+  background-image: url("../images/Theme/Pikachu.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
