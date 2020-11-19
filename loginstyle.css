@@ -2,8 +2,8 @@
   background-color: #f9d62e !important;
   color: #eee;
   text-decoration: none;
-  font-size: 16px;
-  font-family: "Press Start 2P";
+  font-size: 25px;
+  font-family: "Rochester";
   padding-right: 100px !important;
   padding-left: 100px !important;
 }
@@ -14,8 +14,8 @@
 }
 
 .brand-logo {
-  font-family: "Press Start 2P";
-  font-size: 30px !important;
+  font-family: "Rochester";
+  font-size: 44px !important;
 }
 
 .container {
@@ -157,14 +157,14 @@
   font-weight: bold;
   color: black;
   text-align: center;
-  font-family: "Press Start 2P";
+  font-family: "Rochester";
 }
 
 .transbox p {
   color: black;
   text-align: center;
-  font-family: "Press Start 2P";
-  font-size: 22px;
+  font-family: "Rochester";
+  font-size: 32px;
   font-weight: 100;
   line-height: 20px;
   letter-spacing: 0.5px;
@@ -178,19 +178,19 @@
   letter-spacing: 3px;
   bottom: 0px;
   margin-bottom: 0px;
-  font-family: "Press Start 2P"
+  font-family: "Rochester";
 }
 
 h1 {
-  font-family: "Press Start 2P";
-  font-size: 30px;
+  font-family: "Rochester";
+  font-size: 33px;
   font-weight: bold;
   margin: 0;
 }
 
 p {
-  font-family: "Press Start 2P";
-  font-size: 14px;
+  font-family: "Rochester";
+  font-size: 18px;
   font-weight: 100;
   line-height: 20px;
   letter-spacing: 0.5px;
@@ -202,8 +202,8 @@ button {
   border: 1px solid #f9d62e !important;
   background-color: #f9d62e !important;
   color: white;
-  font-size: 12px;
-  font-family: "Press Start 2P";
+  font-size: 14px;
+  font-family: "Rochester";
   padding: 12px 45px;
   letter-spacing: 1px;
   text-transform: uppercase;
