@@ -1,0 +1,141 @@
+.nav-wrapper {
+  background-color: #f9d62e !important;
+  color: #eee;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Rochester";
+  padding-right: 100px !important;
+  padding-left: 100px !important;
+}
+
+.right a:hover {
+  background-color: #eee;
+  color: #f9d62e;
+}
+
+.brand-logo {
+  font-family: "Rochester";
+  font-size: 44px !important;
+}
+
+.test {
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding: 45px;
+  width: 900px;
+  height: 710px;
+  background: url("../images/predictor.gif");
+  background-size: cover;
+  background-position: center;
+  border-radius: 0 2px 2px 0;
+  text-align: center;
+}
+
+.left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+}
+
+button {
+  border-radius: 20px;
+  border: 1px solid #f9d62e !important;
+  background-color: #f9d62e !important;
+  color: white;
+  font-size: 14px;
+  font-family: "Rochester";
+  padding: 12px 45px;
+  margin: 300px;
+  margin-left: 480px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+button:focus {
+  outline: none;
+}
+
+h1 {
+  font-family: "Rochester";
+}
+
+.left input[list="genres"] {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #f9d62e;
+}
+
+.left input[list="producers"] {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #f9d62e;
+}
+
+.left input[list="sources"] {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #f9d62e;
+}
+
+.left input[list="studios"] {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #f9d62e;
+}
+
+.left input[list="licensors"] {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #f9d62e;
+}
+
+.left input[list="pgratings"] {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #f9d62e;
+}
+
+p {
+  font-family: "Rochester";
+}
+
+input:not([type]):focus:not([readonly]),
+input[type="text"]:not(.browser-default):focus:not([readonly]),
+input[type="password"]:not(.browser-default):focus:not([readonly]),
+input[type="email"]:not(.browser-default):focus:not([readonly]),
+input[type="url"]:not(.browser-default):focus:not([readonly]),
+input[type="time"]:not(.browser-default):focus:not([readonly]),
+input[type="date"]:not(.browser-default):focus:not([readonly]),
+input[type="datetime"]:not(.browser-default):focus:not([readonly]),
+input[type="datetime-local"]:not(.browser-default):focus:not([readonly]),
+input[type="tel"]:not(.browser-default):focus:not([readonly]),
+input[type="number"]:not(.browser-default):focus:not([readonly]),
+input[type="search"]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 2px solid #f9d62e;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
