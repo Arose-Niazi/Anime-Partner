@@ -1,9 +1,10 @@
 
 .txtBox{
     /* width: 400px; */
-    border: 2px solid #f9d62e;
+    border: 2px solid #f9d72e91;
     border-radius: 3px;
     display: inline-block;
+    box-shadow: 2px 2px 8px #e2f4c7;
 }
 
 

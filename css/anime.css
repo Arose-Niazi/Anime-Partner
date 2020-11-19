@@ -1,6 +1,4 @@
-.navbar-fixed{
-    height: 0px;
-}
+
 .iris {
     background: linear-gradient( rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.5) ), url('../images/Pikachu.jpg');
     background-repeat: no-repeat;
@@ -60,4 +58,28 @@
 
 .rating{
     margin-top: 4em;
+}
+.userImg{
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+    box-shadow: 6px 7px 3px rgba(0,0,0,0.14),0 7px 13px 6px rgba(0,0,0,0.12),0 19px 31px -7px rgba(0,0,0,0.2)
+}
+.Name{
+    /* font-weight: 900; */
+    font-size: 2em;
+    margin-top: 100px;
+}
+.bar{
+    background-color: #fc913ab9;
+    width: 40%;
+    height: 10px;
+    align-items: center;
+    margin-left: 29%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 30px;
+}
+.mar{
+    margin-top: 50px;
 }
