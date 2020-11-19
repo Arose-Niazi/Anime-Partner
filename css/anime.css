@@ -1,4 +1,25 @@
 
+.nav-wrapper {
+    background-color: #f9d62e !important;
+    color: #eee;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Rochester";
+    padding-right: 100px !important;
+    padding-left: 100px !important;
+}
+  
+.right a:hover {
+    background-color: #eee;
+    color: #f9d62e;
+}
+  
+.brand-logo {
+    font-family: "Rochester";
+    font-size: 44px !important;
+}
+
+  
 .iris {
     background: linear-gradient( rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.5) ), url('../images/Pikachu.jpg');
     background-repeat: no-repeat;
@@ -84,4 +105,121 @@
     margin-top: 50px;
 }
 
+.footer-copyright {
+    background-color: #f9d62e;
+    color: #eee;
+    text-align: center;
+    letter-spacing: 3px;
+    bottom: 0px;
+    margin-bottom: 0px;
+    font-family: "Rochester";
+}
+  
+h1 {
+    font-family: "Rochester";
+    font-size: 33px;
+    font-weight: bold;
+    margin: 0;
+}
+  
+p {
+    font-family: "Rochester";
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    margin: 20px 0 30px;
+}
+  
+button {
+    border-radius: 20px;
+    border: 1px solid black !important;
+    background-color: #f9a12e !important;
+    color: white;
+    font-size: 14px;
+    font-family: "Rochester";
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+  
+button:active {
+    transform: scale(0.95);
+}
+  
+button:focus {
+    outline: none;
+}
+  
+button.ghost {
+    background-color: white;
+    border-color: #f9d62e;
+    color: white;
+}
+
 .card-image{height: 250px !important}
+
+
+.txtBox{
+    /* width: 400px; */
+    border: 2px solid #f9d72e91;
+    border-radius: 3px;
+    display: inline-block;
+    box-shadow: 2px 2px 8px #e2f4c7;
+}
+
+
+.checked {
+    color: orange;
+}
+.margin{
+    font-weight: 900;
+}
+
+.box{
+    margin-top: 3em;
+}
+.header{
+    padding: 20px;
+}
+.list_grid{
+    padding: 20px;
+    float: right;
+}
+.list_grid i{
+    padding: 20px;
+    color: #272207;
+}
+.collection-item:hover{
+    background-color: #f9d62e;
+    transition: 0.3s;
+}
+.collection-item{
+    transition: 0.3s;
+}
+
+.container {
+    background-color: #eee;
+    position: relative;
+    overflow: hidden;
+    width: 1550px;
+    max-width: 100%;
+    min-height: 635px;
+}
+  
+.form-container {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    transition: all 0.6s ease-in-out;
+}
+
+a {
+    color: black;
+}
+
+.margin {
+    color: coral;
+}
+  
