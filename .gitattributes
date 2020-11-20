@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+js/materialize.js -linguist-vendored
+js/materialize.min.js -linguist-vendored
+css/materialize.css -linguist-vendored
+css/materialize.min.css -linguist-vendored
