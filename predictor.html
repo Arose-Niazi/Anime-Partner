@@ -1,0 +1,1464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" />
+    <link type="text/css" rel="stylesheet" href="predictor.css" />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="//fonts.googleapis.com/css?family=Rochester"
+    />
+
+    <title>Anime Partner</title>
+  </head>
+  <body>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          <a href="home.index" class="brand-logo">Anime Partner</a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="home.index">Home</a></li>
+            <li><a href="login.html">Suggestor</a></li>
+            <li class="active"><a href="predictor.html">Predictor</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div id="predictor-box">
+      <div class="left">
+        <form action="#">
+          <h1>Predictor</h1>
+          <p>
+            <label for="producer">Producer</label>
+            <input list="producers" id="producer" />
+            <datalist id="producers">
+              <option>1st PLACE</option>
+              <option>3xCube</option>
+              <option>4Kids Entertainment</option>
+              <option>5pb.</option>
+              <option>12 Diary Holders</option>
+              <option>81 Produce</option>
+              <option>501st JOINT FIGHTER WING</option>
+              <option>A-Craft</option>
+              <option>A-Line</option>
+              <option>A-Sketch</option>
+              <option>ABC Animation</option>
+              <option>Abema TV</option>
+              <option>AC Create</option>
+              <option>Academy Productions</option>
+              <option>Actas</option>
+              <option>Active</option>
+              <option>Adores</option>
+              <option>Advance Syakujii</option>
+              <option>AG-ONE</option>
+              <option>Age</option>
+              <option>Age Global Networks</option>
+              <option>Agent 21</option>
+              <option>Ai Addiction</option>
+              <option>Ai ga areba Daijobu</option>
+              <option>AIC</option>
+              <option>AIR AGENCY</option>
+              <option>Ajia-Do</option>
+              <option>AKABEiSOFT2</option>
+              <option>Akita Shoten</option>
+              <option>Alchemist</option>
+              <option>Amber Film Works</option>
+              <option>AMG MUSIC</option>
+              <option>Amgakuin</option>
+              <option>Amino</option>
+              <option>Amuse</option>
+              <option>Angelfish</option>
+              <option>ANIK</option>
+              <option>Animac</option>
+              <option>Animaruya</option>
+              <option>Animate Film</option>
+              <option>Animatic</option>
+              <option>Animation Do</option>
+              <option>Animatsu Entertainment</option>
+              <option>Animax</option>
+              <option>Anime Antenna Iinkai</option>
+              <option>Anime Consortium Japan</option>
+              <option>AnimEigo</option>
+              <option>Aniplex</option>
+              <option>Aniplex of America</option>
+              <option>Annapuru</option>
+              <option>Aoni Entertainment</option>
+              <option>Apollon</option>
+              <option>Aquamarine</option>
+              <option>AQUAPLUS</option>
+              <option>Arcturus</option>
+              <option>Artmic</option>
+              <option>Asahi Broadcasting</option>
+              <option>Asahi Production</option>
+              <option>Asahi Shimbun</option>
+              <option>Asatsu DK</option>
+              <option>ASCII Media Works</option>
+              <option>Asgard</option>
+              <option>Ashi Production</option>
+              <option>Asmik Ace Entertainment</option>
+              <option>Assez Finaud Fabric</option>
+              <option>AT-X</option>
+              <option>Atelier Musa</option>
+              <option>Atlus</option>
+              <option>Aubec</option>
+              <option>Audio Highs</option>
+              <option>Audio Planning U</option>
+              <option>Audio Tanaka</option>
+              <option>Avex Entertainment</option>
+              <option>Avex Pictures</option>
+              <option>AZ Creative</option>
+              <option>Azumaker</option>
+              <option>Bandai</option>
+              <option>Bandai Channel</option>
+              <option>Bandai Namco Entertainment</option>
+              <option>Bandai Namco Games</option>
+              <option>Bandai Namco Live Creative</option>
+              <option>Bandai Namco Pictures</option>
+              <option>Bandai Namco Rights Marketing</option>
+              <option>Bandai Visual</option>
+              <option>Banpresto</option>
+              <option>Barnum Studio</option>
+              <option>BEAM Entertainment</option>
+              <option>Beat Frog</option>
+              <option>Bee Media</option>
+              <option>Bee Train</option>
+              <option>BeeWorks</option>
+              <option>Being</option>
+              <option>Benesse Corporation</option>
+              <option>BeSTACK</option>
+              <option>Beyond C.</option>
+              <option>Big Bang</option>
+              <option>Big West</option>
+              <option>BIGFACE</option>
+              <option>BIGLOBE</option>
+              <option>bilibili</option>
+              <option>Bishop</option>
+              <option>Blue Eyes</option>
+              <option>BMG Japan</option>
+              <option>BOOTLEG</option>
+              <option>Bouncy</option>
+              <option>Brave Hearts</option>
+              <option>Broccoli</option>
+              <option>BS11</option>
+              <option>BS Fuji</option>
+              <option>BS Japan</option>
+              <option>BS NTV</option>
+              <option>BS-i</option>
+              <option>BS-TBS</option>
+              <option>Bulls Eye</option>
+              <option>Bungeishunjuu</option>
+              <option>Bushiroad</option>
+              <option>Bushiroad Music</option>
+              <option>C2C</option>
+              <option>C &amp; I entertainment</option>
+              <option>Cammot</option>
+              <option>Capcom</option>
+              <option>Casio Entertainment</option>
+              <option>CBC</option>
+              <option>CBS</option>
+              <option>chara-ani.com</option>
+              <option>CherryLips</option>
+              <option>Chiba TV</option>
+              <option>Children&#039;s Playground Entertainment</option>
+              <option>China Animation Characters</option>
+              <option>China Literature Limited</option>
+              <option>Chippai</option>
+              <option>Chrono Gear Creative</option>
+              <option>Chugai Mining Co.</option>
+              <option>Chukong Technologies</option>
+              <option>Chukyo TV Broadcasting</option>
+              <option>CIC</option>
+              <option>CloverWorks</option>
+              <option>Coamix</option>
+              <option>Cocoro Free</option>
+              <option>Code</option>
+              <option>COLOPL</option>
+              <option>Colored-Pencil Animation Design</option>
+              <option>Comic Umenohone</option>
+              <option>comico</option>
+              <option>CoMix Wave Films</option>
+              <option>Contents Seed</option>
+              <option>Cosmic Ray</option>
+              <option>Cospa</option>
+              <option>Cotton Doll</option>
+              <option>Craftar</option>
+              <option>CREi</option>
+              <option>Cromea</option>
+              <option>Crunchyroll SC Anime Fund</option>
+              <option>CyberAgent</option>
+              <option>CyberConnect2</option>
+              <option>Cyclone Graphics inc</option>
+              <option>Cygames</option>
+              <option>D3</option>
+              <option>D &amp; D Pictures</option>
+              <option>d-rights</option>
+              <option>D-techno</option>
+              <option>D.A.S.T.</option>
+              <option>D.N.dreampartners</option>
+              <option>Dai Nippon Printing</option>
+              <option>Daiei</option>
+              <option>Daiichi Shokai CO.</option>
+              <option>Daiichikosho</option>
+              <option>DandeLion Animation Studio LLC</option>
+              <option>Darts</option>
+              <option>Datam Polystar</option>
+              <option>Daume</option>
+              <option>DAX Production</option>
+              <option>Dear Stage inc.</option>
+              <option>Delfi Sound</option>
+              <option>DeNA</option>
+              <option>Dentsu</option>
+              <option>Dentsu Razorfish</option>
+              <option>Dentsu Tec</option>
+              <option>Design Factory</option>
+              <option>Diabolik Lovers MB Project</option>
+              <option>DiC Entertainment</option>
+              <option>Digital Frontier</option>
+              <option>Digital Works</option>
+              <option>Digiturbo</option>
+              <option>Diomedea</option>
+              <option>Directions</option>
+              <option>Discovery</option>
+              <option>DIVE II Entertainment</option>
+              <option>DJI</option>
+              <option>DLE</option>
+              <option>DMM pictures</option>
+              <option>DMM.com</option>
+              <option>DMM.futureworks</option>
+              <option>Docomo Anime Store</option>
+              <option>Dongyang Animation</option>
+              <option>Donuts</option>
+              <option>Dream Creation</option>
+              <option>Dream Force</option>
+              <option>Drecom</option>
+              <option>Duckbill Entertainment</option>
+              <option>Dwango</option>
+              <option>Dwango Music Entertainment</option>
+              <option>Dynamic Planning</option>
+              <option>E&amp;G Films</option>
+              <option>e-notion</option>
+              <option>Earth Star Entertainment</option>
+              <option>East Japan Marketing &amp; Communications</option>
+              <option>eBooK Initiative Japan CO.</option>
+              <option>Echo</option>
+              <option>EDGE</option>
+              <option>Egg Firm</option>
+              <option>EMI</option>
+              <option>Emon</option>
+              <option>Enlight Pictures</option>
+              <option>Enoki Films</option>
+              <option>ensky</option>
+              <option>Enterbrain</option>
+              <option>Epicross</option>
+              <option>Evil Line Records</option>
+              <option>EXA International</option>
+              <option>Exit Tunes</option>
+              <option>Eye Move</option>
+              <option>F.M.F</option>
+              <option>famima.com</option>
+              <option>Fanworks</option>
+              <option>Felix Film</option>
+              <option>feng</option>
+              <option>Fields</option>
+              <option>Flex Comix</option>
+              <option>flying DOG</option>
+              <option>Forecast Communications</option>
+              <option>FOREST Hunting One</option>
+              <option>Four Some</option>
+              <option>Free-Will</option>
+              <option>Frencel</option>
+              <option>Front Line</option>
+              <option>Frontier Works</option>
+              <option>Fuji Creative</option>
+              <option>Fuji Pacific Music Publishing</option>
+              <option>Fuji TV</option>
+              <option>Fuji&amp;gumi Games</option>
+              <option>Fujiko F. Fujio Pro</option>
+              <option>Fujimi Shobo</option>
+              <option>Fujio Production</option>
+              <option>Fujishouji</option>
+              <option>Fukuoka Broadcasting System</option>
+              <option>Furyu</option>
+              <option>Futabasha</option>
+              <option>G&amp;G Entertainment</option>
+              <option>G-mode</option>
+              <option>GAGA</option>
+              <option>Gainax</option>
+              <option>Gakken</option>
+              <option>Gakken Eigakyoku</option>
+              <option>GANSIS</option>
+              <option>GDH</option>
+              <option>GEN Productions</option>
+              <option>Gen&#039;ei</option>
+              <option>Genco</option>
+              <option>Geneon Universal Entertainment</option>
+              <option>Gentosha Comics</option>
+              <option>Gigno Systems</option>
+              <option>gimik</option>
+              <option>Ginga Ya</option>
+              <option>Glovision</option>
+              <option>Good Smile Company</option>
+              <option>Graphinica</option>
+              <option>Gree</option>
+              <option>Green Bunny</option>
+              <option>Greenwood</option>
+              <option>Grooove</option>
+              <option>Group TAC</option>
+              <option>Grouper Productions</option>
+              <option>GYAO!</option>
+              <option>Gzbrain</option>
+              <option>Hakoniwa Academy Student Council</option>
+              <option>Hakuhodo</option>
+              <option>Hakuhodo DY Media Partners</option>
+              <option>Hakuhodo DY Music &amp; Pictures</option>
+              <option>Hakusensha</option>
+              <option>Hal Film Maker</option>
+              <option>Half H.P Studio</option>
+              <option>Haoliners Animation League</option>
+              <option>Happinet Pictures</option>
+              <option>Harappa</option>
+              <option>Hasbro</option>
+              <option>HeART-BIT</option>
+              <option>Heewon Entertainment</option>
+              <option>Hero Communication</option>
+              <option>Heroz</option>
+              <option>Highlights Entertainment</option>
+              <option>Himajin Planning</option>
+              <option>Hipland Music Corporation</option>
+              <option>Hiroshi Planning</option>
+              <option>Hiroshima Television</option>
+              <option>Hisashishi Videos</option>
+              <option>Hobby Japan</option>
+              <option>Hobi Animation</option>
+              <option>Hobibox</option>
+              <option>Hokkaido Azmacy</option>
+              <option>Hokkaido Cultural Broadcasting</option>
+              <option>Hoods Entertainment</option>
+              <option>HoriPro</option>
+              <option>Hoso Seisaku Doga</option>
+              <option>Hot Bear</option>
+              <option>Houbunsha</option>
+              <option>Hulu</option>
+              <option>i0+</option>
+              <option>I was a Ballerina</option>
+              <option>I Will</option>
+              <option>I-move</option>
+              <option>Ichijinsha</option>
+              <option>Idea Factory</option>
+              <option>ILCA</option>
+              <option>Ima Group</option>
+              <option>Image Kei</option>
+              <option>Imagica</option>
+              <option>Imagin</option>
+              <option>Inc.</option>
+              <option>INCS toenter</option>
+              <option>Indeprox</option>
+              <option>Index</option>
+              <option>indigo line</option>
+              <option>Infinite</option>
+              <option>ING</option>
+              <option>Innocent Grey</option>
+              <option>International Digital Artist</option>
+              <option>Inu x Boku SS Production Partners</option>
+              <option>iQIYI</option>
+              <option>Ishimori Pro</option>
+              <option>Iwatobi High School Swimming Club</option>
+              <option>J.C.Staff</option>
+              <option>Jade Animation</option>
+              <option>Jam</option>
+              <option>Japan Home Video</option>
+              <option>Japan Sleeve</option>
+              <option>JapanAnime</option>
+              <option>Jay Zone Comic</option>
+              <option>Jidaigeki Channel</option>
+              <option>Jinnan Studio</option>
+              <option>JM Animation</option>
+              <option>Jormungand Production Partners</option>
+              <option>JP Room</option>
+              <option>JTB Entertainment</option>
+              <option>Jumondo</option>
+              <option>Just Pro</option>
+              <option>JY Animation</option>
+              <option>K-Factory</option>
+              <option>Kadokawa</option>
+              <option>Kadokawa Contents Gate</option>
+              <option>Kadokawa Daiei Studio</option>
+              <option>Kadokawa Media (Taiwan)</option>
+              <option>Kadokawa Media House</option>
+              <option>Kadokawa Pictures Japan</option>
+              <option>Kadokawa Shoten</option>
+              <option>Kaeruotoko Shokai</option>
+              <option>Kakao Japan</option>
+              <option>Kanetsu Co.</option>
+              <option>Kanon Sound</option>
+              <option>Kansai Telecasting</option>
+              <option>Kawade Shobo Shinsha</option>
+              <option>KBS</option>
+              <option>KDDI</option>
+              <option>Keisei Electric Railway</option>
+              <option>KEN ON</option>
+              <option>Kenji Studio</option>
+              <option>KENMedia</option>
+              <option>Khara</option>
+              <option>Ki/oon Music</option>
+              <option>Kids Station</option>
+              <option>Kimi To Boku Production Partners</option>
+              <option>King Records</option>
+              <option>Kino Production</option>
+              <option>Kinoshita Group Holdings</option>
+              <option>Kinoshita Koumuten</option>
+              <option>Kinyosha</option>
+              <option>Kitty Films</option>
+              <option>Kitty Media</option>
+              <option>Kiyosumi High School Mahjong Club</option>
+              <option>KLab</option>
+              <option>KlockWorx</option>
+              <option>KMMJ Studios</option>
+              <option>Knack Productions</option>
+              <option>Kobunsha</option>
+              <option>Kodansha</option>
+              <option>Koei</option>
+              <option>Koei Tecmo Games</option>
+              <option>Kokusai Eigasha</option>
+              <option>Konami</option>
+              <option>Konami Digital Entertainment</option>
+              <option>Kotobukiya</option>
+              <option>KSS</option>
+              <option>Kujou-kun no Bonnou wo Mimamoru-kai</option>
+              <option>Kyoraku Industrial Holdings</option>
+              <option>Kyoto Animation</option>
+              <option>Kyotoma</option>
+              <option>LandQ studios</option>
+              <option>Lantis</option>
+              <option>Lastrum Music</option>
+              <option>Lawson</option>
+              <option>Lawson HMV Entertainment</option>
+              <option>Level-5</option>
+              <option>LIDENFILMS</option>
+              <option>Life Work</option>
+              <option>LINE Corporation</option>
+              <option>Links</option>
+              <option>Live Viewing Japan</option>
+              <option>Liverpool</option>
+              <option>LTD</option>
+              <option>LTD.</option>
+              <option>Ltd.</option>
+              <option>Lucent Pictures Entertainment</option>
+              <option>Lucky Paradise</option>
+              <option>Lune Pictures</option>
+              <option>m.o.e.</option>
+              <option>Mad Box</option>
+              <option>Madhouse</option>
+              <option>Madoka Partners</option>
+              <option>Mag Garden</option>
+              <option>MAGES.</option>
+              <option>Magic Bus</option>
+              <option>Magic Capsule</option>
+              <option>Mainichi Broadcasting System</option>
+              <option>Mainichi Shimbun</option>
+              <option>Marine Entertainment</option>
+              <option>Marubeni</option>
+              <option>Marui Group</option>
+              <option>Marvelous</option>
+              <option>Marvelous AQL</option>
+              <option>Mary Jane</option>
+              <option>Marza Animation Planet</option>
+              <option>Media Bank</option>
+              <option>Media Do</option>
+              <option>Media Factory</option>
+              <option>Media Rings</option>
+              <option>MediaNet</option>
+              <option>Medicos Entertainment</option>
+              <option>Medicrie</option>
+              <option>Meiji Seika</option>
+              <option>Mellow Head</option>
+              <option>Melonbooks</option>
+              <option>Memory-Tech</option>
+              <option>Meruhensha</option>
+              <option>Milestone Music Publishing</option>
+              <option>Milky Animation Label</option>
+              <option>Milky Cartoon</option>
+              <option>Minami Machi Bugyousho</option>
+              <option>Ministry of the Navy</option>
+              <option>Miracle Bus</option>
+              <option>Miracle Robo</option>
+              <option>Mitsubishi</option>
+              <option>Miyagi Television Broadcasting</option>
+              <option>MK Pictures</option>
+              <option>MMDGP</option>
+              <option>Mobcast</option>
+              <option>Moonbell</option>
+              <option>Movic</option>
+              <option>MS Pictures</option>
+              <option>Muse Communication Co.</option>
+              <option>Mushi Production</option>
+              <option>Music Ray&#039;n</option>
+              <option>My Theater D.D.</option>
+              <option>Myung Films</option>
+              <option>MÃ¶bius Tone</option>
+              <option>NADA Holdings</option>
+              <option>Nagoya TV Housou</option>
+              <option>Natsuiro Kiseki Production Partners</option>
+              <option>Natural High</option>
+              <option>NAZ</option>
+              <option>NBCUniversal Entertainment Japan</option>
+              <option>NEC Avenue</option>
+              <option>Neft Film</option>
+              <option>Nelke Planning</option>
+              <option>Nelvana</option>
+              <option>Network</option>
+              <option>NewGin</option>
+              <option>Nexon</option>
+              <option>NHK</option>
+              <option>NHK Enterprises</option>
+              <option>NHK-BS2</option>
+              <option>NHN PlayArt</option>
+              <option>NichiNare</option>
+              <option>Nichion</option>
+              <option>Nihikime no Dozeu</option>
+              <option>Nihon Ad Systems</option>
+              <option>Nihon Eizo</option>
+              <option>Nihon Falcom</option>
+              <option>Nikkatsu</option>
+              <option>Nintendo</option>
+              <option>Nintendo of America</option>
+              <option>Nippon Columbia</option>
+              <option>Nippon Cultural Broadcasting</option>
+              <option>Nippon Ichi Software</option>
+              <option>Nippon Television Music</option>
+              <option>Nippon Television Network</option>
+              <option>Nishinippon Broadcasting</option>
+              <option>Nitroplus</option>
+              <option>Nomad</option>
+              <option>North Stars Pictures</option>
+              <option>Notes</option>
+              <option>NOTTV</option>
+              <option>Nozomi Entertainment</option>
+              <option>NTT Docomo</option>
+              <option>NTT Plala</option>
+              <option>NuTech Digital</option>
+              <option>OB Planning</option>
+              <option>Oh! Production</option>
+              <option>OLE-M</option>
+              <option>OLM</option>
+              <option>Omnibus Japan</option>
+              <option>On The Run</option>
+              <option>On-Lead</option>
+              <option>ONEMUSIC</option>
+              <option>Opera House</option>
+              <option>Orange</option>
+              <option>Orchid Seed</option>
+              <option>Overlap</option>
+              <option>Oz</option>
+              <option>Palm Studio</option>
+              <option>Panasonic Digital Contents</option>
+              <option>PansonWorks</option>
+              <option>Parco</option>
+              <option>Pashmina</option>
+              <option>Pazzy Entertainment</option>
+              <option>Pb Animation Co. Ltd.</option>
+              <option>Pencil</option>
+              <option>Penta Show Studios</option>
+              <option>Peter Pan Creation</option>
+              <option>Phoenix Entertainment</option>
+              <option>Picante Circus</option>
+              <option>Picture Magic</option>
+              <option>Pierrot Plus</option>
+              <option>Pink Pineapple</option>
+              <option>Pioneer LDC</option>
+              <option>Pixy</option>
+              <option>Planet</option>
+              <option>Plum</option>
+              <option>Plus One</option>
+              <option>Po10tial</option>
+              <option>Polygram Japan</option>
+              <option>Pony Canyon</option>
+              <option>Pony Canyon Enterprise</option>
+              <option>PPP</option>
+              <option>PRA</option>
+              <option>Primastea</option>
+              <option>PrimeTime</option>
+              <option>Production Ace</option>
+              <option>Production GoodBook</option>
+              <option>Production I.G</option>
+              <option>Production Reed</option>
+              <option>Project Eureka AO</option>
+              <option>Project IS</option>
+              <option>project lights</option>
+              <option>Project No Name</option>
+              <option>Project Railgun</option>
+              <option>Public &amp; Basic</option>
+              <option>Purple Cow Studio Japan</option>
+              <option>Q-Tec</option>
+              <option>QREAZY</option>
+              <option>Quaras</option>
+              <option>Quatre Stella</option>
+              <option>Queen Bee</option>
+              <option>Quick Corporation</option>
+              <option>RAB Aomori Broadcasting</option>
+              <option>Radio Osaka</option>
+              <option>Radix</option>
+              <option>Raku High Student Council</option>
+              <option>Rakuonsha</option>
+              <option>Rakuten</option>
+              <option>RAY</option>
+              <option>RCC Chugoku Broadcasting</option>
+              <option>Remic</option>
+              <option>Right Gauge</option>
+              <option>RightTracks</option>
+              <option>Rikuentai</option>
+              <option>Rironsha</option>
+              <option>Robot Communications</option>
+              <option>Romantica club !!</option>
+              <option>Rondo Robe</option>
+              <option>Ryukyu Asahi Broadcasting</option>
+              <option>Saban Brands</option>
+              <option>Saban Entertainment</option>
+              <option>Sakura Create</option>
+              <option>Sakura Production</option>
+              <option>Sammy</option>
+              <option>San-X</option>
+              <option>Sanctuary</option>
+              <option>Sankyo Planning</option>
+              <option>Sanrio</option>
+              <option>Sanyo Bussan</option>
+              <option>Sapporo Television Broadcasting</option>
+              <option>Sav! The World Productions</option>
+              <option>SEDIC International</option>
+              <option>Sega</option>
+              <option>Seikaisha</option>
+              <option>Senran Kagura Partners</option>
+              <option>Sentai Filmworks</option>
+              <option>Shaft</option>
+              <option>Shanghai Jump Network Technology</option>
+              <option>Shanghai Tiantan Culture &amp; Media</option>
+              <option>Shelty</option>
+              <option>Shin-Ei Animation</option>
+              <option>Shinchosha</option>
+              <option>Shingeki no Kyojin Team</option>
+              <option>Shirogumi</option>
+              <option>Shizuoka Broadcasting System</option>
+              <option>Shizuoka Daiichi Television</option>
+              <option>Shochiku</option>
+              <option>Shochiku Music Publishing</option>
+              <option>Shogakukan</option>
+              <option>Shogakukan Music &amp; Digital Entertainment</option>
+              <option>Shogakukan Productions</option>
+              <option>Shounen Gahousha</option>
+              <option>Showgate</option>
+              <option>Shueisha</option>
+              <option>Shufunotomo</option>
+              <option>Shuuhei Morita</option>
+              <option>Silkyâ€™s</option>
+              <option>SKY Perfect Well Think</option>
+              <option>Slowcurve</option>
+              <option>SME Visual Works</option>
+              <option>Smiral Animation</option>
+              <option>SOEISHINSHA</option>
+              <option>Soft Garage</option>
+              <option>SoftBank Creative Corp.</option>
+              <option>SoftX</option>
+              <option>Sogo Vision</option>
+              <option>Sol Blade</option>
+              <option>Solid Vox</option>
+              <option>Sony Music Communications</option>
+              <option>Sony Music Entertainment</option>
+              <option>Sony PCL</option>
+              <option>Sony Pictures Entertainment</option>
+              <option>Sotsu</option>
+              <option>Sotsu Music Publishing</option>
+              <option>Sound Team Don Juan</option>
+              <option>Soyuzmultfilm</option>
+              <option>Spacey Music Entertainment</option>
+              <option>SPO Entertainment</option>
+              <option>Square Enix</option>
+              <option>Starchild Records</option>
+              <option>Stardust Promotion</option>
+              <option>Steve N&#039; Steven</option>
+              <option>Studio A-CAT</option>
+              <option>Studio Blanc</option>
+              <option>Studio CHANT</option>
+              <option>Studio Comet</option>
+              <option>Studio Core</option>
+              <option>Studio Deen</option>
+              <option>Studio elle</option>
+              <option>Studio Fantasia</option>
+              <option>Studio Flag</option>
+              <option>Studio G-1Neo</option>
+              <option>Studio Ghibli</option>
+              <option>Studio GOONEYS</option>
+              <option>Studio Gram</option>
+              <option>Studio Hibari</option>
+              <option>Studio Izena</option>
+              <option>Studio Jack</option>
+              <option>Studio Kelmadick</option>
+              <option>Studio Kikan</option>
+              <option>Studio Kyuuma</option>
+              <option>Studio LAN</option>
+              <option>Studio Mausu</option>
+              <option>Studio Mir</option>
+              <option>Studio Moriken</option>
+              <option>Studio NOIX</option>
+              <option>Studio Nue</option>
+              <option>Studio Pastoral</option>
+              <option>Studio Pierrot</option>
+              <option>Studio Saki Makura</option>
+              <option>Studio Take Off</option>
+              <option>Studio Tron</option>
+              <option>Studio Tulip</option>
+              <option>Studio Wombat</option>
+              <option>Studio Zain</option>
+              <option>Studio Zealot</option>
+              <option>StudioRF Inc.</option>
+              <option>SUBARU</option>
+              <option>Sugar Boy</option>
+              <option>Suiseisha</option>
+              <option>Sumitomo</option>
+              <option>Sun TV</option>
+              <option>Sunny Side Up</option>
+              <option>Sunrise</option>
+              <option>Sunrise Music Publishing</option>
+              <option>Synergy Japan</option>
+              <option>SynergySP</option>
+              <option>T-Rex</option>
+              <option>T.O Entertainment</option>
+              <option>Tablier Communication</option>
+              <option>Takara Tomy A.R.T.S</option>
+              <option>Takeshobo</option>
+              <option>TAKI Corporation</option>
+              <option>TAP</option>
+              <option>Tasogare OtomeÃ—Amnesia Production Partners</option>
+              <option>Tate Anime</option>
+              <option>Tatsunoko Production</option>
+              <option>Tavac</option>
+              <option>TBS</option>
+              <option>TC Entertainment</option>
+              <option>TEAM Entertainment Inc.</option>
+              <option>Techno Sound</option>
+              <option>Teichiku Entertainment</option>
+              <option>Tele-Cartoon Japan</option>
+              <option>Telecom Animation Film</option>
+              <option>Telescreen BV</option>
+              <option>Tencent Animation</option>
+              <option>Tencent Japan</option>
+              <option>Tencent Penguin Pictures</option>
+              <option>Tezuka Productions</option>
+              <option>The Answer Studio</option>
+              <option>The Berich</option>
+              <option>Think Corporation</option>
+              <option>Three Fat Samurai</option>
+              <option>TMS Entertainment</option>
+              <option>TMS-Kyokuchi</option>
+              <option>Toei Animation</option>
+              <option>Toei Video</option>
+              <option>Tohan Corporation</option>
+              <option>Toho</option>
+              <option>TOHO animation</option>
+              <option>Tohokushinsha Film Corporation</option>
+              <option>Tokai Television</option>
+              <option>Tokuma Japan</option>
+              <option>Tokuma Japan Communications</option>
+              <option>Tokuma Shoten</option>
+              <option>Tokyo Kids</option>
+              <option>Tokyo Movie Shinsha</option>
+              <option>Tokyo MX</option>
+              <option>Tokyo Theatres</option>
+              <option>Tokyu Recreation</option>
+              <option>TOMY Company</option>
+              <option>Top Marshal</option>
+              <option>Top-Insight International Co.</option>
+              <option>Topcraft</option>
+              <option>Toppan Printing</option>
+              <option>Toranoana</option>
+              <option>Tose</option>
+              <option>Toshiba Digital Frontiers</option>
+              <option>Toshiba EMI</option>
+              <option>Toshiba Entertainment</option>
+              <option>Tosho Printing</option>
+              <option>Toy&#039;s Factory</option>
+              <option>Trans Arts</option>
+              <option>Trans Cosmos</option>
+              <option>Triangle Staff</option>
+              <option>Trick Block</option>
+              <option>Trigger</option>
+              <option>Trilogy Future Studio</option>
+              <option>Trinet Entertainment</option>
+              <option>Trinity Sound</option>
+              <option>Tsuburaya Productions</option>
+              <option>Tsukuru no Mori</option>
+              <option>tsuritama partners</option>
+              <option>TV Aichi</option>
+              <option>TV Asahi</option>
+              <option>TV Osaka</option>
+              <option>TV Saitama</option>
+              <option>TV Setouchi</option>
+              <option>TV Tokyo</option>
+              <option>TV Tokyo Music</option>
+              <option>Twin Engine</option>
+              <option>TYO</option>
+              <option>TYO Animations</option>
+              <option>U-NEXT</option>
+              <option>Ultra Super Pictures</option>
+              <option>Universal Entertainment</option>
+              <option>Universal Pictures Japan</option>
+              <option>Universal Studios</option>
+              <option>UNLIMITED Partners</option>
+              <option>Usagi Ou</option>
+              <option>USEN</option>
+              <option>Valkyria</option>
+              <option>VAP</option>
+              <option>Vega Entertainment</option>
+              <option>Venus Vangard</option>
+              <option>Victor Entertainment</option>
+              <option>Viki</option>
+              <option>Virgin Babylon Records</option>
+              <option>Visual 80</option>
+              <option>Visual Art&#039;s</option>
+              <option>Visual Vision</option>
+              <option>Viz Media</option>
+              <option>Volks</option>
+              <option>Voyager Entertainment</option>
+              <option>W-Toon Studio</option>
+              <option>Walkers Company</option>
+              <option>Walt Disney Japan</option>
+              <option>Walt Disney Studios</option>
+              <option>WAO World</option>
+              <option>Wargaming Japan</option>
+              <option>Warner Bros.</option>
+              <option>Warner Music Japan</option>
+              <option>WField</option>
+              <option>White Bear</option>
+              <option>White Fox</option>
+              <option>Wit Studio</option>
+              <option>World Cosplay Summit</option>
+              <option>WOWOW</option>
+              <option>Xebec</option>
+              <option>XFLAG</option>
+              <option>XFLAG Pictures</option>
+              <option>Xing</option>
+              <option>Yahoo! Japan</option>
+              <option>Yamamura Animation</option>
+              <option>Yamasa</option>
+              <option>Yaoqi</option>
+              <option>Yellow Film</option>
+              <option>Yomiko Advertising</option>
+              <option>Yomiuri Advertising</option>
+              <option>Yomiuri Shimbun</option>
+              <option>Yomiuri Telecasting</option>
+              <option>Yomiuri TV Enterprise</option>
+              <option>Yoon&#039;s Color</option>
+              <option>Yoshimoto Creative Agency</option>
+              <option>Youmex</option>
+              <option>YTV</option>
+              <option>Yuhodo</option>
+              <option>Yumeta Company</option>
+              <option>Zack Promotion</option>
+              <option>ZERO-A</option>
+              <option>Zexcs</option>
+              <option>ZIZ Entertainment (ZIZ)</option>
+              <option>ZOOM ENTERPRISE</option>
+              <option>Zyc</option>
+            </datalist>
+          </p>
+
+          <p>
+            <label for="licensor">Licensor</label>
+            <input list="licensors" id="licensor" />
+            <datalist id="licensors">
+              <option>4Kids Entertainment</option>
+              <option>Active</option>
+              <option>Adult Source Media</option>
+              <option>ADV Films</option>
+              <option>Anchor Bay Films</option>
+              <option>Anime Midstream</option>
+              <option>AnimEigo</option>
+              <option>Aniplex of America</option>
+              <option>Bandai</option>
+              <option>Bandai Entertainment</option>
+              <option>Bandai Namco Games</option>
+              <option>Bandai Visual USA</option>
+              <option>bilibili</option>
+              <option>Capcom</option>
+              <option>Central Park Media</option>
+              <option>Cinelicious Pics</option>
+              <option>Crimson Star Media</option>
+              <option>Critical Mass Video</option>
+              <option>Crunchyroll</option>
+              <option>Dentsu Entertainment USA</option>
+              <option>DiC Entertainment</option>
+              <option>Discotek Media</option>
+              <option>DreamWorks</option>
+              <option>Enoki Films</option>
+              <option>feel.</option>
+              <option>Flatiron Film Company</option>
+              <option>Funimation</option>
+              <option>Geneon Entertainment USA</option>
+              <option>Geneon Universal Entertainment</option>
+              <option>GKIDS</option>
+              <option>Haoliners Animation League</option>
+              <option>Hasbro</option>
+              <option>Inc.</option>
+              <option>JapanAnime</option>
+              <option>Kadokawa Pictures USA</option>
+              <option>Ketchup Entertainment</option>
+              <option>Kitty Media</option>
+              <option>Konami</option>
+              <option>licensor</option>
+              <option>Maiden Japan</option>
+              <option>Manga Entertainment</option>
+              <option>Marvel Entertainment</option>
+              <option>Media Blasters</option>
+              <option>Miramax Films</option>
+              <option>Nelvana</option>
+              <option>Nintendo of America</option>
+              <option>NIS America</option>
+              <option>Nozomi Entertainment</option>
+              <option>NuTech Digital</option>
+              <option>NYAV Post</option>
+              <option>OLM Digital</option>
+              <option>Pied Piper</option>
+              <option>Ponycan USA</option>
+              <option>Saban Entertainment</option>
+              <option>Sentai Filmworks</option>
+              <option>Shout! Factory</option>
+              <option>SoftCel Pictures</option>
+              <option>Sony Music Entertainment</option>
+              <option>Sony Pictures Entertainment</option>
+              <option>Super Techno Arts</option>
+              <option>Synch-Point</option>
+              <option>Tencent Animation</option>
+              <option>The Pokemon Company International</option>
+              <option>TOKYOPOP</option>
+              <option>Urban Vision</option>
+              <option>Viz Media</option>
+              <option>Voyager Entertainment</option>
+              <option>Walt Disney Studios</option>
+              <option>Warner Bros.</option>
+            </datalist>
+          </p>
+
+          <p>
+            <label for="studio">Studio</label>
+            <input list="studios" id="studio" />
+            <datalist id="studios">
+              <option>2:10 Animation</option>
+              <option>8bit</option>
+              <option>10Gauge</option>
+              <option>A-1 Pictures</option>
+              <option>A-Line</option>
+              <option>A-Real</option>
+              <option>A.C.G.T.</option>
+              <option>ACC Production</option>
+              <option>Actas</option>
+              <option>Agent 21</option>
+              <option>AIC</option>
+              <option>AIC A.S.T.A.</option>
+              <option>AIC Build</option>
+              <option>AIC Classic</option>
+              <option>AIC Frontier</option>
+              <option>AIC Plus+</option>
+              <option>AIC Spirits</option>
+              <option>AIC Takarazuka</option>
+              <option>Ajia-Do</option>
+              <option>An DerCen</option>
+              <option>Animaruya</option>
+              <option>Animate Film</option>
+              <option>Anime Antenna Iinkai</option>
+              <option>Anime R</option>
+              <option>Anpro</option>
+              <option>APPP</option>
+              <option>Arcs Create</option>
+              <option>Arms</option>
+              <option>Artland</option>
+              <option>Artmic</option>
+              <option>Asahi Production</option>
+              <option>Ascension</option>
+              <option>Ashi Production</option>
+              <option>Asread</option>
+              <option>Asura Film</option>
+              <option>AT-2</option>
+              <option>Aubec</option>
+              <option>AXsiZ</option>
+              <option>B&amp;T</option>
+              <option>Bandai Namco Pictures</option>
+              <option>Barnum Studio</option>
+              <option>Bee Media</option>
+              <option>Bee Train</option>
+              <option>Beijing Rocen Digital</option>
+              <option>Big Bang</option>
+              <option>Blade</option>
+              <option>Blue Cat</option>
+              <option>Bones</option>
+              <option>BOOTLEG</option>
+              <option>Bouncy</option>
+              <option>Boyan Pictures</option>
+              <option>Brain&#039;s Base</option>
+              <option>BreakBottle</option>
+              <option>Bridge</option>
+              <option>Buemon</option>
+              <option>C2C</option>
+              <option>C-Station</option>
+              <option>Calf Studio</option>
+              <option>CG Year</option>
+              <option>Chaos Project</option>
+              <option>Charaction</option>
+              <option>Chippai</option>
+              <option>Chiptune</option>
+              <option>ChuChu</option>
+              <option>Circle Tribute</option>
+              <option>Coastline Animation Studio</option>
+              <option>Collaboration Works</option>
+              <option>CoMix Wave Films</option>
+              <option>Craftar</option>
+              <option>Creators Dot Com</option>
+              <option>Creators in Pack</option>
+              <option>Cygames</option>
+              <option>D &amp; D Pictures</option>
+              <option>D.A.S.T.</option>
+              <option>Daewon Media</option>
+              <option>Daichi Doga</option>
+              <option>Darts</option>
+              <option>Daume</option>
+              <option>David Production</option>
+              <option>DAX Production</option>
+              <option>Digital Frontier</option>
+              <option>Digital Media Lab</option>
+              <option>Diomedea</option>
+              <option>DLE</option>
+              <option>Doga Kobo</option>
+              <option>domerica</option>
+              <option>Dongwoo A&amp;E</option>
+              <option>DR Movie</option>
+              <option>drop</option>
+              <option>Dwango</option>
+              <option>dwarf</option>
+              <option>Dynamo Pictures</option>
+              <option>E&amp;G Films</option>
+              <option>Echo</option>
+              <option>Echoes</option>
+              <option>EDGE</option>
+              <option>Egg</option>
+              <option>Eiken</option>
+              <option>EKACHI EPILKA</option>
+              <option>Ekura Animal</option>
+              <option>Emon</option>
+              <option>EMTÂ²</option>
+              <option>Encourage Films</option>
+              <option>Enoki Films</option>
+              <option>Fanworks</option>
+              <option>feel.</option>
+              <option>Felix Film</option>
+              <option>Fifth Avenue</option>
+              <option>Flavors Soft</option>
+              <option>Front Line</option>
+              <option>Fuji TV</option>
+              <option>Fukushima Gainax</option>
+              <option>Future Planet</option>
+              <option>G&amp;G Entertainment</option>
+              <option>G-angle</option>
+              <option>G-Lam</option>
+              <option>G.CMay Animation &amp; Film</option>
+              <option>Gainax</option>
+              <option>Gakken Eigakyoku</option>
+              <option>GARDEN LODGE</option>
+              <option>Gathering</option>
+              <option>Genco</option>
+              <option>Geno Studio</option>
+              <option>Ginga Ya</option>
+              <option>GoHands</option>
+              <option>Gonzo</option>
+              <option>Graphinica</option>
+              <option>Green Bunny</option>
+              <option>Group TAC</option>
+              <option>Hal Film Maker</option>
+              <option>Haoliners Animation League</option>
+              <option>HeART-BIT</option>
+              <option>Heewon Entertainment</option>
+              <option>helo.inc</option>
+              <option>Himajin Planning</option>
+              <option>Hoods Drifters Studio</option>
+              <option>Hoods Entertainment</option>
+              <option>Hotline</option>
+              <option>HS Pictures Studio</option>
+              <option>Idea Factory</option>
+              <option>iDRAGONS Creative Studio</option>
+              <option>ILCA</option>
+              <option>Image House</option>
+              <option>Imagin</option>
+              <option>Indeprox</option>
+              <option>Ishikawa Pro</option>
+              <option>Ishimori Entertainment</option>
+              <option>ixtl</option>
+              <option>J.C.Staff</option>
+              <option>Japan Taps</option>
+              <option>Japan Vistec</option>
+              <option>JCF</option>
+              <option>Jinnis Animation Studios</option>
+              <option>Joker Films</option>
+              <option>Jumondo</option>
+              <option>Kachidoki Studio</option>
+              <option>KAGAYA Studio</option>
+              <option>Kamikaze Douga</option>
+              <option>Kanaban Graphics</option>
+              <option>Kaname Productions</option>
+              <option>Karaku</option>
+              <option>Karasfilms</option>
+              <option>Kazami Gakuen Koushiki Douga-bu</option>
+              <option>Kazuki Production</option>
+              <option>Kenji Studio</option>
+              <option>Khara</option>
+              <option>Kinema Citrus</option>
+              <option>Kitty Films</option>
+              <option>KIZAWA Studio</option>
+              <option>Knack Productions</option>
+              <option>Kokusai Eigasha</option>
+              <option>KOO-KI</option>
+              <option>Kyoto Animation</option>
+              <option>Kyotoma</option>
+              <option>LandQ studios</option>
+              <option>Larx Entertainment</option>
+              <option>Lay-duce</option>
+              <option>Lerche</option>
+              <option>LIDENFILMS</option>
+              <option>Life Work</option>
+              <option>Light Chaser Animation Studios</option>
+              <option>Lilix</option>
+              <option>LMD</option>
+              <option>LÂ²Studio</option>
+              <option>M2</option>
+              <option>M.S.C</option>
+              <option>Madhouse</option>
+              <option>Magic Bus</option>
+              <option>Majin</option>
+              <option>Manglobe</option>
+              <option>MAPPA</option>
+              <option>Marvy Jack</option>
+              <option>Mary Jane</option>
+              <option>Marza Animation Planet</option>
+              <option>Media Bank</option>
+              <option>Mili Pictures</option>
+              <option>Milky Animation Label</option>
+              <option>Milky Cartoon</option>
+              <option>Millepensee</option>
+              <option>Minakata Laboratory</option>
+              <option>MMDGP</option>
+              <option>MooGoo</option>
+              <option>Mook DLE</option>
+              <option>Moss Design Unit</option>
+              <option>Mushi Production</option>
+              <option>Namu Animation</option>
+              <option>Natural High</option>
+              <option>NAZ</option>
+              <option>Neft Film</option>
+              <option>Next Media Animation</option>
+              <option>Nexus</option>
+              <option>NHK</option>
+              <option>NHK Enterprises</option>
+              <option>Nice Boat Animation</option>
+              <option>Nippon Animation</option>
+              <option>Nomad</option>
+              <option>NUT</option>
+              <option>October Media</option>
+              <option>Oddjob</option>
+              <option>Odolttogi</option>
+              <option>Office AO</option>
+              <option>Office DCI</option>
+              <option>Office Take Off</option>
+              <option>Office Takeout</option>
+              <option>Oh! Production</option>
+              <option>OLM</option>
+              <option>OLM Digital</option>
+              <option>Onionskin</option>
+              <option>Opera House</option>
+              <option>Orange</option>
+              <option>Ordet</option>
+              <option>Oxybot</option>
+              <option>Oz</option>
+              <option>P.A. Works</option>
+              <option>Palm Studio</option>
+              <option>Panda Factory</option>
+              <option>Panmedia</option>
+              <option>Passione</option>
+              <option>Pastel</option>
+              <option>pH Studio</option>
+              <option>Phoenix Entertainment</option>
+              <option>Picograph</option>
+              <option>Picture Magic</option>
+              <option>Pie in The Sky</option>
+              <option>Pierrot Plus</option>
+              <option>Piko Studio</option>
+              <option>Pine Jam</option>
+              <option>Pink Pineapple</option>
+              <option>Piso Studio</option>
+              <option>Planet</option>
+              <option>Platinum Vision</option>
+              <option>Plum</option>
+              <option>Pollyanna Graphics</option>
+              <option>Polygon Pictures</option>
+              <option>Pops Inc.</option>
+              <option>PoRO</option>
+              <option>PPM</option>
+              <option>PRA</option>
+              <option>Primastea</option>
+              <option>PrimeTime</option>
+              <option>production doA</option>
+              <option>Production I.G</option>
+              <option>Production IMS</option>
+              <option>Production Reed</option>
+              <option>Project No.9</option>
+              <option>Public &amp; Basic</option>
+              <option>Puzzle Animation Studio Limited</option>
+              <option>Qualia Animation</option>
+              <option>Queen Bee</option>
+              <option>Rabbit Machine</option>
+              <option>Radix</option>
+              <option>Remic</option>
+              <option>RG Animation Studios</option>
+              <option>Ripple Film</option>
+              <option>Ripromo</option>
+              <option>Rising Force</option>
+              <option>Robot Communications</option>
+              <option>Rockwell Eyes</option>
+              <option>Sakura Create</option>
+              <option>Sanrio</option>
+              <option>SANZIGEN</option>
+              <option>Satelight</option>
+              <option>Schoolzone</option>
+              <option>Science SARU</option>
+              <option>SELFISH</option>
+              <option>Seven</option>
+              <option>Seven Arcs</option>
+              <option>Seven Arcs Pictures</option>
+              <option>Shaft</option>
+              <option>Shanghai Animation Film Studio</option>
+              <option>Shanghai Foch Film Culture Investment</option>
+              <option>Shimogumi</option>
+              <option>Shin-Ei Animation</option>
+              <option>Shinkuukan</option>
+              <option>Shirogumi</option>
+              <option>Shochiku Animation Institute</option>
+              <option>Shogakukan Music &amp; Digital Entertainment</option>
+              <option>Shueisha</option>
+              <option>Shuka</option>
+              <option>Signal. MD</option>
+              <option>Silver Link.</option>
+              <option>SOEISHINSHA</option>
+              <option>Sotsu</option>
+              <option>Sparkly Key Animation Studio</option>
+              <option>Square Enix</option>
+              <option>Steve N&#039; Steven</option>
+              <option>Sting Ray</option>
+              <option>Strawberry Meets Pictures</option>
+              <option>Studio 1st</option>
+              <option>Studio 3Hz</option>
+              <option>Studio 4Â°C</option>
+              <option>Studio 9 MAiami</option>
+              <option>Studio A-CAT</option>
+              <option>Studio Anima</option>
+              <option>Studio Animal</option>
+              <option>Studio Binzo</option>
+              <option>Studio Blanc</option>
+              <option>Studio Bogey</option>
+              <option>Studio Chizu</option>
+              <option>Studio Colorido</option>
+              <option>Studio Comet</option>
+              <option>Studio Core</option>
+              <option>Studio Deen</option>
+              <option>Studio Egg</option>
+              <option>Studio Eromatick</option>
+              <option>Studio Fantasia</option>
+              <option>Studio Flad</option>
+              <option>Studio Flag</option>
+              <option>Studio G-1Neo</option>
+              <option>Studio Gallop</option>
+              <option>Studio Ghibli</option>
+              <option>Studio Gokumi</option>
+              <option>Studio Hibari</option>
+              <option>Studio Jam</option>
+              <option>Studio Junio</option>
+              <option>Studio Khronos</option>
+              <option>Studio Korumi</option>
+              <option>Studio Kyuuma</option>
+              <option>Studio Live</option>
+              <option>Studio Matrix</option>
+              <option>Studio Meditation With a Pencil</option>
+              <option>Studio Moriken</option>
+              <option>Studio Pierrot</option>
+              <option>Studio Ponoc</option>
+              <option>Studio Ppuri</option>
+              <option>Studio PuYUKAI</option>
+              <option>Studio Rikka</option>
+              <option>Studio Sign</option>
+              <option>Studio Take Off</option>
+              <option>Studio Unicorn</option>
+              <option>Studio Wombat</option>
+              <option>Studio World</option>
+              <option>Studio Zealot</option>
+              <option>Studio Zero</option>
+              <option>Studio! Cucuri</option>
+              <option>Sugar Boy</option>
+              <option>Sunrise</option>
+              <option>Sunwoo Entertainment</option>
+              <option>Suzuki Mirano</option>
+              <option>SynergySP</option>
+              <option>T-Rex</option>
+              <option>Takara Tomy A.R.T.S</option>
+              <option>TAKI Corporation</option>
+              <option>Tama Production</option>
+              <option>Tamura Shigeru Studio</option>
+              <option>Tatsunoko Production</option>
+              <option>Team YokkyuFuman</option>
+              <option>Tele-Cartoon Japan</option>
+              <option>Telecom Animation Film</option>
+              <option>Telescreen BV</option>
+              <option>Tengu Kobo</option>
+              <option>Tezuka Productions</option>
+              <option>The Answer Studio</option>
+              <option>Think Corporation</option>
+              <option>Three-d</option>
+              <option>Thundray</option>
+              <option>TMS Entertainment</option>
+              <option>TNK</option>
+              <option>Toei Animation</option>
+              <option>Toei Video</option>
+              <option>Tokyo Kids</option>
+              <option>Tokyo Movie Shinsha</option>
+              <option>Tomason</option>
+              <option>Tomovies</option>
+              <option>Tomoyasu Murata Company</option>
+              <option>Tonko House</option>
+              <option>Topcraft</option>
+              <option>Trans Arts</option>
+              <option>Triangle Staff</option>
+              <option>Trigger</option>
+              <option>Trinet Entertainment</option>
+              <option>Triple X</option>
+              <option>TROYCA</option>
+              <option>Tsuchida Productions</option>
+              <option>Tsukimidou</option>
+              <option>TUBA</option>
+              <option>TYO Animations</option>
+              <option>TYPHOON GRAPHICS</option>
+              <option>ufotable</option>
+              <option>Usagi Ou</option>
+              <option>Vasoon Animation</option>
+              <option>Vega Entertainment</option>
+              <option>Venet</option>
+              <option>View Works</option>
+              <option>Visual 80</option>
+              <option>W-Toon Studio</option>
+              <option>WAO World</option>
+              <option>Wawayu Animation</option>
+              <option>White Fox</option>
+              <option>Will Palette</option>
+              <option>Wit Studio</option>
+              <option>Xebec</option>
+              <option>Xebec Zwei</option>
+              <option>Y.O.U.C</option>
+              <option>Yamamura Animation</option>
+              <option>Yamato Works</option>
+              <option>Yaoyorozu</option>
+              <option>Yokohama Animation Lab</option>
+              <option>Yumeta Company</option>
+              <option>Zero-G</option>
+              <option>Zexcs</option>
+            </datalist>
+          </p>
+
+          <p>
+            <label for="source">Source</label>
+            <input list="sources" id="source" />
+            <datalist id="sources">
+              <option>4-koma manga</option>
+              <option>Book</option>
+              <option>Card game</option>
+              <option>Digital manga</option>
+              <option>Game</option>
+              <option>Light novel</option>
+              <option>Manga</option>
+              <option>Music</option>
+              <option>Novel</option>
+              <option>Original</option>
+              <option>Other</option>
+              <option>Picture book</option>
+              <option>Radio</option>
+              <option>Visual novel</option>
+              <option>Web manga</option>
+            </datalist>
+          </p>
+
+          <p>
+            <label for="genre">Genre</label>
+            <input list="genres" id="genre" />
+            <datalist id="genres">
+              <option>Action</option>
+              <option>Adventure</option>
+              <option>Ai</option>
+              <option>Arts</option>
+              <option>Cars</option>
+              <option>Comedy</option>
+              <option>Dementia</option>
+              <option>Demons</option>
+              <option>Drama</option>
+              <option>Ecchi</option>
+              <option>Fantasy</option>
+              <option>Game</option>
+              <option>Harem</option>
+              <option>Hentai</option>
+              <option>Historical</option>
+              <option>Horror</option>
+              <option>Josei</option>
+              <option>Kids</option>
+              <option>Life</option>
+              <option>Magic</option>
+              <option>Martial</option>
+              <option>Mecha</option>
+              <option>Military</option>
+              <option>Music</option>
+              <option>Mystery</option>
+              <option>Parody</option>
+              <option>Police</option>
+              <option>Power</option>
+              <option>Psychological</option>
+              <option>Romance</option>
+              <option>Samurai</option>
+              <option>School</option>
+              <option>Sci-Fi</option>
+              <option>Seinen</option>
+              <option>Shoujo</option>
+              <option>Shounen</option>
+              <option>Slice</option>
+              <option>Space</option>
+              <option>Sports</option>
+              <option>Super</option>
+              <option>Supernatural</option>
+              <option>Thriller</option>
+              <option>Vampire</option>
+              <option>Yaoi</option>
+              <option>Yuri</option>
+            </datalist>
+          </p>
+
+          <p>
+            <label for="pgrating">PG Rating</label>
+            <input list="pgratings" id="pgrating" />
+            <datalist id="pgratings">
+              <option value="PG - Children"></option>
+              <option value="PG - Teens 13 or older"></option>
+              <option value="R - 17+ (violence & profanity)"></option>
+              <option value="R+ - Mild Nudity"></option>
+              <option value="Rx - Hentai"></option>
+            </datalist>
+          </p>
+        </form>
+      </div>
+      <div class="test">
+        <button>Predict</button>
+      </div>
+    </div>
+  </body>
+</html>
