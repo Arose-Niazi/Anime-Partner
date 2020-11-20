@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+js/materialize* linguist-vendored
+css/materialize* linguist-vendored
