@@ -233,7 +233,7 @@ a {
 }
 .container{
     background-color: white!important;
-    min-height: calc(100vh - 9.8842293906810037vh);
+    height: calc(100vh - 9.8842293906810037vh);
 }
 .cMid{
     display: block;
