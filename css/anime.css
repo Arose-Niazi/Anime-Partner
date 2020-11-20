@@ -233,7 +233,6 @@ a {
 }
 .container{
     background-color: white!important;
-    height: calc(100vh - 9.8842293906810037vh);
 }
 .cMid{
     display: block;
