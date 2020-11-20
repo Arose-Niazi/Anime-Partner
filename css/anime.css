@@ -133,17 +133,25 @@ p {
   
 button {
     border-radius: 20px;
-    border: 1px solid black !important;
-    background-color: #f9a12e !important;
+    border: 2px solid #f9a12e !important;
+    background-color: coral !important;
     color: white;
     font-size: 14px;
     font-family: "Rochester";
     padding: 12px 45px;
-    letter-spacing: 1px;
     text-transform: uppercase;
-    transition: transform 80ms ease-in;
+    transition: 0.2s;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
   
+button:hover{
+    border: 2px solid coral !important;
+    background-color: #f9a12e !important;
+    transition: 0.2s;
+
+}
+
 button:active {
     transform: scale(0.95);
 }

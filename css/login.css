@@ -101,7 +101,7 @@
 }
 
 .overlay-left {
-  background-image: url("../images/Theme/Signup.jpg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3) ),url("../images/Theme/Signup.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
@@ -113,7 +113,7 @@
 }
 
 .overlay-right {
-  background-image: url("../images/Theme/Login.jpg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3) ),url("../images/Theme/Login.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
@@ -130,6 +130,7 @@
   background-color: #eee;
   border: 1px solid black;
   opacity: 0.6;
+  margin-bottom: 2cm;
 }
 
 .transbox h1 {
