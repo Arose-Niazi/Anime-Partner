@@ -1,116 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" />
-    <link type="text/css" rel="stylesheet" href="css/anime.css" />
-    <link type="text/css" rel="stylesheet" href="css/login.css" />
-    <link
-      type="text/css"
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Rochester"
-    />
+		<link type="text/css" rel="stylesheet" href="css/materialize.min.css" />
+		<link type="text/css" rel="stylesheet" href="css/anime.css" />
+		<link type="text/css" rel="stylesheet" href="css/login.css" />
+		<link
+			type="text/css"
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css?family=Rochester"
+		/>
 
-    <title>Anime Partner</title>
-  </head>
-  <body>
-    <div class="navbar-fixed">
-      <nav>
-        <div class="nav-wrapper">
-          <a href="home.html" class="brand-logo">Anime Partner</a>
-          <ul class="right hide-on-med-and-down">
-            <li><a href="list.html">Animes</a></li>
-            <li><a href="suggested.html">Suggestor</a></li>
-            <li><a href="predictor.html">Predictor</a></li>
-            <li><a href="profile.html">Profile</a></li>
-            <li class="active"><a href="login.html">Sign In</a></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
+		<title>Anime Partner</title>
+	</head>
+	<body>
+		<div class="navbar-fixed">
+			<nav>
+				<div class="nav-wrapper">
+					<a href="home.html" class="brand-logo">Anime Partner</a>
+					<ul class="right hide-on-med-and-down">
+						<li><a href="list.html">Animes</a></li>
+						<li><a href="suggested.html">Suggestor</a></li>
+						<li><a href="predictor.html">Predictor</a></li>
+						<li><a href="profile.html">Profile</a></li>
+						<li class="active"><a href="login.html">Sign In</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
 
-    <div class="container" id="container" style="height: auto;">
-      <div class="form-container sign-up-container">
-        <form action="#">
-          <h1>Create Account</h1>
-          <p>
-            <label for="Username">Username</label>
-            <input type="text" id="Username" />
-          </p>
+		<div class="container" id="container" style="height: auto">
+			<div class="form-container sign-up-container">
+				<form action="#">
+					<h1>Create Account</h1>
+					<p>
+						<label for="Username">Username</label>
+						<input type="text" id="Username" />
+					</p>
 
-          <p>
-            <label for="birthday">Date of Birth</label>
-            <input type="date" id="birthday" />
-          </p>
+					<p>
+						<label for="birthday">Date of Birth</label>
+						<input type="date" id="birthday" />
+					</p>
 
-          <p>
-            <label for="password">Password</label>
-            <input type="password" id="password" />
-          </p>
+					<p>
+						<label for="password">Password</label>
+						<input type="password" id="password" />
+					</p>
 
-          <p>
-            <label for="gender">Select Gender</label>
-            <input list="genders" id="gender" />
-            <datalist id="genders">
-              <option value="Male"></option>
-              <option value="Female"></option>
-              <option value="Others"></option>
-            </datalist>
-          </p>
+					<p>
+						<label for="gender">Select Gender</label>
+						<input list="genders" id="gender" />
+						<datalist id="genders">
+							<option value="Male"></option>
+							<option value="Female"></option>
+							<option value="Others"></option>
+						</datalist>
+					</p>
 
-          <button>Sign Up</button>
-        </form>
-      </div>
+					<button>Sign Up</button>
+				</form>
+			</div>
 
-      <div class="form-container sign-in-container">
-        <form action="#">
-          <h1>Sign in</h1>
-          <p>
-            <label for="Username">Username</label>
-            <input type="text" id="Username" />
-          </p>
+			<div class="form-container sign-in-container">
+				<form action="#">
+					<h1>Sign in</h1>
+					<p>
+						<label for="Username">Username</label>
+						<input type="text" id="Username" />
+					</p>
 
-          <p>
-            <label for="password">Password</label>
-            <input type="password" id="password" />
-          </p>
+					<p>
+						<label for="password">Password</label>
+						<input type="password" id="password" />
+					</p>
 
-          <p>
-            <a href="#">forget password?</a>
-          </p>
-          <button>Sign In</button>
-        </form>
-      </div>
+					<p>
+						<a href="#">forget password?</a>
+					</p>
+					<button>Sign In</button>
+				</form>
+			</div>
 
-      <div class="overlay-container">
-        <div class="overlay">
-          <div class="overlay-panel overlay-left">
-            <div class="transbox">
-              <h1>Welcome Back!</h1>
-              <p>
-                To keep connected with us please login with your personal info
-              </p>
-            </div>
-            <button class="ghost" id="signIn">Sign In</button>
-          </div>
+			<div class="overlay-container">
+				<div class="overlay">
+					<div class="overlay-panel overlay-left">
+						<div class="transbox">
+							<h1>Welcome Back!</h1>
+							<p>
+								To keep connected with us please login with your
+								personal info
+							</p>
+						</div>
+						<button class="ghost" id="signIn">Sign In</button>
+					</div>
 
-          <div class="overlay-panel overlay-right">
-            <div class="transbox">
-              <h1>Hello, Friend!</h1>
-              <p>Enter your personal details and start journey with us</p>
-            </div>
-            <button class="ghost" id="signUp">Sign Up</button>
-          </div>
-        </div>
-      </div>
-    </div>
+					<div class="overlay-panel overlay-right">
+						<div class="transbox">
+							<h1>Hello, Friend!</h1>
+							<p>
+								Enter your personal details and start journey
+								with us
+							</p>
+						</div>
+						<button class="ghost" id="signUp">Sign Up</button>
+					</div>
+				</div>
+			</div>
+		</div>
 
-    <footer>
-      <div class="footer-copyright">© 2020 Copyright Text</div>
-    </footer>
+		<footer>
+			<div class="footer-copyright">© 2020 Copyright Text</div>
+		</footer>
 
-    <script src="js/login.js"></script>
-  </body>
+		<script src="js/login.js"></script>
+	</body>
 </html>

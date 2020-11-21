@@ -1,62 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" />
-    <link type="text/css" rel="stylesheet" href="css/anime.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link
-      type="text/css"
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Rochester"
-    />
-    <script src="js/list.js"></script>
+		<link type="text/css" rel="stylesheet" href="css/materialize.min.css" />
+		<link type="text/css" rel="stylesheet" href="css/anime.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<link
+			type="text/css"
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css?family=Rochester"
+		/>
+		<script src="js/list.js"></script>
 
-    <title>Anime Partner</title>
-  </head>
-  <body>
-    <div class="navbar-fixed">
-      <nav>
-        <div class="nav-wrapper">
-          <a href="home.html" class="brand-logo">Anime Partner</a>
-          <ul class="right hide-on-med-and-down">
-            <li class="active"><a href="list.html">Animes</a></li>
-            <li><a href="suggested.html">Suggestor</a></li>
-            <li><a href="predictor.html">Predictor</a></li>
-            <li><a href="profile.html">Profile</a></li>
-            <li><a href="login.html">Sign In</a></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-    <div class="container" style="margin-top: -10px;">
-        <div class = "iris" style="background-image: url('images/Theme/List.jpg');">
-          <div class = "card transparent z-depth-5">
-              Anime List
-          </div>
-      </div>
-        <div class="list_grid">
-            <i onclick="list()" class="fa fa-list-ul" aria-hidden="true"></i>
-            <i onclick="grid()" class="fa fa-th" aria-hidden="true"></i>
-        </div>
-        <div class="cMid" id="box"> 
-            <ul class="collection">
-                <a href="anime.html"><li class="collection-item">Attack On Titans</li></a>
-                <a href="anime.html"><li class="collection-item">Code Geass</li></a>
-                <a href="anime.html"><li class="collection-item">Death Note</li></a>
-                <a href="anime.html"><li class="collection-item">Dragon Ball Z</li></a>
-                <a href="anime.html"><li class="collection-item">Naruto</li></a>
-                <a href="anime.html"><li class="collection-item">Pokemon</li></a>
-                <a href="anime.html"><li class="collection-item">Sword Art Online</li></a>
-              </ul>
-        </div>
-    </div>
-    <footer>
-      <div class="footer-copyright">© 2020 Copyright Text</div>
-    </footer>
+		<title>Anime Partner</title>
+	</head>
+	<body>
+		<div class="navbar-fixed">
+			<nav>
+				<div class="nav-wrapper">
+					<a href="home.html" class="brand-logo">Anime Partner</a>
+					<ul class="right hide-on-med-and-down">
+						<li class="active"><a href="list.html">Animes</a></li>
+						<li><a href="suggested.html">Suggestor</a></li>
+						<li><a href="predictor.html">Predictor</a></li>
+						<li><a href="profile.html">Profile</a></li>
+						<li><a href="login.html">Sign In</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<div class="container" style="margin-top: -10px">
+			<div
+				class="iris"
+				style="background-image: url('images/Theme/List.jpg')"
+			>
+				<div class="card transparent z-depth-5">Anime List</div>
+			</div>
+			<div class="list_grid">
+				<i
+					onclick="list()"
+					class="fa fa-list-ul"
+					aria-hidden="true"
+				></i>
+				<i onclick="grid()" class="fa fa-th" aria-hidden="true"></i>
+			</div>
+			<div class="cMid" id="box">
+				<ul class="collection">
+					<a href="anime.html"
+						><li class="collection-item">Attack On Titans</li></a
+					>
+					<a href="anime.html"
+						><li class="collection-item">Code Geass</li></a
+					>
+					<a href="anime.html"
+						><li class="collection-item">Death Note</li></a
+					>
+					<a href="anime.html"
+						><li class="collection-item">Dragon Ball Z</li></a
+					>
+					<a href="anime.html"
+						><li class="collection-item">Naruto</li></a
+					>
+					<a href="anime.html"
+						><li class="collection-item">Pokemon</li></a
+					>
+					<a href="anime.html"
+						><li class="collection-item">Sword Art Online</li></a
+					>
+				</ul>
+			</div>
+		</div>
+		<footer>
+			<div class="footer-copyright">© 2020 Copyright Text</div>
+		</footer>
 
-    <script src="script.js"></script>
-  </body>
+		<script src="script.js"></script>
+	</body>
 </html>
